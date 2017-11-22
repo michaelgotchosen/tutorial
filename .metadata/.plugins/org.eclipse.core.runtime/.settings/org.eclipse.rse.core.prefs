@@ -1,3 +1,4 @@
-activeuserprofiles=Michael-mac-mini;Team
+activeuserprofiles=PC;Team
 eclipse.preferences.version=1
-org.eclipse.rse.systemtype.local.systemType.defaultUserId=michaelgreer
+org.eclipse.rse.systemtype.local.systemType.defaultUserId=User1
+useridperkey=PC.Local\=User1;

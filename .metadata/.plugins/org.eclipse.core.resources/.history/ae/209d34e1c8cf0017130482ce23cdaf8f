@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<title>SH - Facebook Tutorial</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<head>
+
+<a name="top"></a>
+
+</head>
+
+
+
+<style>
+body,h1 {font-family: "Raleway", Arial, sans-serif}
+h1 {letter-spacing: 6px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+
+
+
+<body>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px; padding: 15px" >
+
+<!-- Header -->
+<header class="w3-panel w3-center w3-opacity" style="padding:25px 16px">
+  <h1 style="font-size: 55px;">Facebook</h1>
+  <h1>Social Hub tutorial</h1>
+
+<!-- Navigation Bar
+
+  <div class="w3-padding-32">
+    <div class="w3-bar w3-border">
+      <a href="../../index.html" class="w3-bar-item w3-button w3-light-grey">Home</a>
+      <a href="/tutorials/facebook/" class="w3-bar-item w3-button w3-light-grey">Facebook</a>
+      <a href="/tutorials/instagram/" class="w3-bar-item w3-button w3-light-grey">Instagram</a>
+      <a href="/tutorials/twitter/" class="w3-bar-item w3-button w3-light-grey">Twitter</a>
+      <a href="/tutorials/youtube/" class="w3-bar-item w3-button w3-light-grey">Youtube</a>
+    </div>
+  </div>
+
+-->
+
+
+</header>
+
+
+  <div>
+
+        <h1><strong>Facebook Requirments</strong></h1>
+        <p> To Activate your Facebook inside the Social Hub, we need the following items:</p>
+        <ul>
+        <li>The App's ID</li>
+        </ul>
+        <ul>
+        <li>The App's secret Key</li>
+        </ul>
+        <ul>
+        <li>The "Slug Name" or ID of the facebook profile you would like to show</li>
+        </ul>
+        <br><br>
+        <h1><strong>Steps</strong></h1>
+        <p>Creating an application in facebook</p>
+        <p>To create an application in facebook you need to go to : <a href="https://developers.facebook.com/" target="_blank">https://developers.facebook.com</a>
+        <p>&nbsp;</p>
+
+
+            <center> <img src="img/fb1.jpg" alt="" style="width: 100%; max-width: 500px" > </center>
+
+
+        <p>&nbsp;</p>
+        <ol>
+        <li><strong>Becoming a developer</strong></li>
+        </ol>
+        <p><em>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(FYI: If you are already a Facebook developer, please skip this step.)</em></p>
+        <p style="padding-left: 60px;">For you to create a Facebook app you first need to become a Facebook developer and accept their terms and conditions</P>
+        <p style="padding-left: 60px;">&nbsp;</p>
+
+
+          <center> <img src="img/fben2.png" alt="" style="width: 100%; max-width: 500px" > </center>
+
+
+        <p>&nbsp;</p>
+        <ol start="2">
+        <li><strong>Creating an APP</strong></li>
+        </ol>
+        <p style="padding-left: 60px;">&nbsp;If this is your first Facebook App please click on the "Create App" button. If you already have an App, you will see a list of your apps and a button to create a new one called "Create a new App" </p>
+        <p style="padding-left: 60px;">&nbsp;</p>
+
+
+            <center> <img src="img/fben3.png" alt="" style="width: 100%; max-width: 500px" > </center>
+
+
+ 
+
+        <p style="padding-left: 300px;">&nbsp;</p>
+        <p style="padding-left: 60px;">Define your App name as <em>GotChosen</em> <em>APP</em>, input an email for contact and also choose a caterogry that best fits you, and click "Save".</p>
+        <p style="padding-left: 60px;">&nbsp;</p>
+
+
+                    <center> <img src="img/fben5.png" alt="" style="width: 100%; max-width: 500px" > </center>
+
+
+        <p style="padding-left: 300px;">&nbsp;</p>
+        <p style="padding-left: 60px;">After you will need to click on Settings -> basic to access application detail modal</p>
+        <p style="padding-left: 60px;">&nbsp;</p>
+
+
+                    <center> <img src="img/fben6.png" alt="" style="width: 100%; max-width: 500px" > </center>
+
+
+        <p style="padding-left: 300px;">&nbsp;</p>
+        <ol start="3">
+        <li><strong>Defining your Application domain</strong></li>
+        </ol>
+        <p style="padding-left: 60px;">Inside the App Domains field add <em>gotchosen</em><em>.com</em>. This will give GotChosen Permisson</p>
+        <p style="padding-left: 90px;">- GotChosen can now access Facebook's API to obtain information</p>
+        <p style="padding-left: 60px;">&nbsp;</p>
+
+
+                    <center> <img src="img/fb7.png" alt="" style="width: 100%; max-width: 500px" > </center>
+
+
+        <ol start="4">
+        <li><strong>Adding a platform</strong></li>
+        </ol>
+        <p style="padding-left: 60px;">After defining the App domain, click on <strong>"Add</strong> <strong>platform"</strong>.</p>
+        <p style="padding-left: 60px;">&nbsp;</p>
+
+
+                  <center> <img src="img/fb8.png" alt="" style="width: 100%; max-width: 500px" > </center>
+
+        <p style="padding-left: 60px;">&nbsp;</p>
+        <p style="padding-left: 60px;">Select <strong>"Site"</strong> as your platform <strong>.</strong></p>
+        <p>&nbsp;</p>
+
+
+                    <center> <img src="img/fb9.png" alt="" style="width: 100%; max-width: 500px" > </center>
+
+
+        <p style="padding-left: 60px;">&nbsp;</p>
+        <p style="padding-left: 60px;">Inside the URL field type <em>https://gotchosen</em><em>.com</em><strong>.</strong></p>
+        <p>&nbsp;</p>
+
+
+                    <center> <img src="img/fb10.png" alt="" style="width: 100%; max-width: 500px" > </center>
+
+
+        <p>&nbsp;</p>
+        <p style="padding-left: 60px;">Now we can save all our changes by just clicking on the "Save Changes" button on the lower right side of the page.</p>
+        <p>&nbsp;</p>
+
+
+                  <center> <img src="img/fb11.png" alt="" style="width: 100%; max-width: 500px" > </center>
+
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p style="padding-left: 30px;"><strong>5. identifying your "Slug Name" or ID </p>
+        <p style="padding-left: 60px;">To identify your <strong>"Slug</strong> <strong>Name"</strong> is very simple, all you have to do is access your Facebook page, and your "Slug Name" will be in the URL</p>
+        <p style="padding-left: 60px;">&nbsp;</p>
+
+
+                  <center> <img src="img/fb12.png" alt="" style="width: 100%; max-width: 500px" > </center>
+
+
+        <p style="padding-left: 60px;">&nbsp;</p>
+        <p style="padding-left: 60px;">If your URL does not contain your "Slug Name" it will be a sequence of numbers which is your ID (FYI:The ID could also contain your facebook's channel name not just numbers) </p>
+        <p style="padding-left: 60px;">&nbsp;</p>
+
+
+                  <center> <img src="img/fb13.png" alt="" style="width: 100%; max-width: 500px" > </center>
+
+
+        <p style="padding-left: 60px;">&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p style="padding-left: 60px;">&nbsp;</p>
+
+
+
+
+
+  </div>
+
+
+<center>
+  <a href='#top' style="padding-right:5px;display:inline-block;padding-bottom:10px" >
+                  <button style="height:50px;width:300px;font-size:16px;background-color: transparent"> Back to top </button>
+                </a>
+</center>
+
+
+
+
+<br><br><br><br>
+
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large">
+</footer>
+
+</body>
+</html>
