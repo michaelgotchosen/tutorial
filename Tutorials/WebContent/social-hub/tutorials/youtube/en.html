@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<title>SH - Youtube Tutorial</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<head>
+
+<a name="top"></a>
+
+</head>
+
+
+
+<style>
+body,h1 {font-family: "Raleway", Arial, sans-serif}
+h1 {letter-spacing: 6px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+
+
+
+<body>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px; padding: 15px" >
+
+<!-- Header -->
+<header class="w3-panel w3-center w3-opacity" style="padding:25px 16px">
+  <h1 style="font-size: 55px;">Youtube</h1>
+  <h1>Social Hub tutorial</h1>
+
+<!-- Navigation Bar
+
+  <div class="w3-padding-32">
+    <div class="w3-bar w3-border">
+      <a href="../../index.html" class="w3-bar-item w3-button w3-light-grey">Home</a>
+      <a href="/tutorials/facebook/" class="w3-bar-item w3-button w3-light-grey">Facebook</a>
+      <a href="/tutorials/instagram/" class="w3-bar-item w3-button w3-light-grey">Instagram</a>
+      <a href="/tutorials/twitter/" class="w3-bar-item w3-button w3-light-grey">Twitter</a>
+      <a href="/tutorials/youtube/" class="w3-bar-item w3-button w3-light-grey">Youtube</a>
+    </div>
+  </div>
+
+-->
+
+
+</header>
+
+
+  <div>
+
+        <h1><strong>Youtube Requirments</strong></h1>
+          <p> To active Youtube's <strong>Social</strong> <strong>Hub</strong><strong></strong> we need the following items:</p>
+          <ul>
+          <li>One API Key </li>
+          </ul>
+          <ul>
+          <li>Your youtube channel ID</li>
+          </ul>
+
+        <h1><strong>Steps</strong></h1>
+          <p> To create a youtube application you first need to go to:&nbsp;<a href="https://console.developers.google.com/apis/api/youtube/overview"target="_blank">https://console.developers.google.com/apis/api/youtube/overview</a></p>
+
+
+              <center> <img src="img/youtube1.png" alt="" style="width: 100%; max-width: 500px" > </center>
+
+
+          <ol>
+          <li>&nbsp;Creating a new project</li>
+          </ol>
+          <p style="padding-left: 60px;">Once inside the YouTube Data Api control panel, click the "Create project", And after define the name of the project as <strong>"GotChosen</strong> <strong>APP"</strong>and click on <strong>"Create"</strong>.</p>
+
+
+                        <center> <img src="img/youtube2.png" alt="" style="width: 100%; max-width: 500px" > </center>
+
+
+          <ol start="2">
+          <li>Activating the project</li>
+          </ol>
+          <p style="padding-left: 60px;"> After we've created the project we need to activate it, and to do so just click on "Activate".</p>
+
+
+                        <center> <img src="img/youtube3.png" alt="" style="width: 100%; max-width: 500px" > </center>
+
+
+          <ol start="3">
+          <li>Creating the credentials</li>
+          </ol>
+          <p style="padding-left: 60px;">To create your credentials all you have to do is click on <strong>"Create</strong> <strong>credentials"</strong>.</p>
+
+
+                        <center> <img src="img/youtube4.png" alt="" style="width: 100%; max-width: 500px" > </center>
+
+
+          <ol start="4">
+          <li> Assinging your credentials to your project </li>
+          </ol>
+          <ul>
+          <li>Inside the "Where will you call this API from" field select "Web Server".</li>
+          </ul>
+          <ul>
+          <li>Inside the "Which data will you access" field select "Public Data".</li>
+          <li>Click on "which credentials i need" button.</li>
+          </ul>
+
+
+                        <center> <img src="img/youtube5.png" alt="" style="width: 100%; max-width: 500px" > </center>
+
+
+
+
+                        <center> <img src="img/youtube6.png" alt="" style="width: 100%; max-width: 500px" > </center>
+
+
+          <ol start="5">
+          <li>Limiting the key access.</li>
+          </ol>
+          <p style="padding-left: 60px;">Your Key was created! We recommmend to limit the access to the API through specfic domains only, so therefore it can not be access from anywhere.</p>
+          <p style="padding-left: 60px;">&nbsp;To do so, just click on the "Restrict Key" button.</p>
+
+
+                        <center> <img src="img/youtube7.png" alt="" style="width: 100%; max-width: 500px" > </center>
+
+
+          <p style="padding-left: 60px;"> Inside the credentials modal, You will need to define the name as <em>gotchosen</em><em>-key-api</em>, inside the field "Key restriction" select Website referrers (HTTP), and lastly add <em>.gotchosen.com/*</em> below so our application has permisson to access the API, and to finish off just click <strong>"Save"</strong>.</p>
+
+
+                        <center> <img src="img/youtube8.png" alt="" style="width: 100%; max-width: 500px" > </center>
+
+
+          <p style="padding-left: 30px;">6. identifying your channel's ID</p>
+          <p style="padding-left: 60px;"> To identify your youtube channel's ID which you would like for us to activate inside the Social Hub is simple</p>
+          <p style="padding-left: 90px;"> All you have to do is access your youtube channel through the search and observe your URL. Sometimes it will be an ID but it can also be your "Slug" name which us wand copy your slug name which is usually your channel's name </p>
+
+
+                        <center> <img src="img/youtube9.png" alt="" style="width: 100%; max-width: 500px" > </center>
+
+
+          <p style="padding-left: 60px;">In the case that it shows your "Slug name" instead of an ID, you will need to access a video from that channel and click on the channel's name below the video's player.</p>
+
+
+                        <center> <img src="img/youtube10.png" alt="" style="width: 100%; max-width: 500px" > </center>
+
+
+          <p style="padding-left: 60px;">Once you access the channel through the video you will see your ID inside the URL. That is the ID we need.</p> 
+
+
+                        <center> <img src="img/youtube11.png" alt="" style="width: 100%; max-width: 500px" > </center>
+
+
+  </div>
+
+
+<br><br><br>
+
+
+<center>
+  <a href='#top' style="padding-right:5px;display:inline-block;padding-bottom:10px" >
+                  <button style="height:50px;width:300px;font-size:16px;background-color: transparent"> Back to top </button>
+                </a>
+</center>
+
+
+
+
+<br><br><br><br>
+
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large">
+</footer>
+
+</body>
+</html>
